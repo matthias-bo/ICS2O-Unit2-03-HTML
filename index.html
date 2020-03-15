@@ -7,20 +7,18 @@
     <meta name="keywords" content="javascript">
     <meta name="author" content="Matthias Bo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     </head>
     <body id="background">
     <h1>Matthias's javascript webpage</h1>
     <p><i>This page was created by yours truly, Matthias Bo</i></p>
-    <button onclick="myfunction()">Change background colour </button>
     <button onclick="myfunction2()">Click here for the truth </button>
-  <script>
-      function myfunction() {
-         document.getElementById('background').style.backgroundColor= 'lightcyan';
-      console.log(4 + 4);
+    <script>
+    document.ElementById("textbox").addEventListener("click", myfunction2);
+    function myfunction2() {
+    window.confirm('You are not special');
+    console.log(4 + 4);
 }
-      function myfunction2() {
-        window.confirm('You are not special');
-      }
-    </script>
-    </body>
-</html>
+  </script>
+  </body>
+  </html>
